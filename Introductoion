@@ -1,0 +1,17 @@
+Docker
+======
+Docker is an open-source platform that automates the deployment, scaling,
+and management of applications using containerization. Containers are lightweight, standalone, 
+and executable software packages that include everything needed to run a piece of software, including the code, runtime, libraries, and system tools.
+Why do we need Docker
+=====================
+Consistency Across Environments: Docker ensures that applications run the same way in different environments, eliminating the "it works on my machine" problem.
+Resource Efficiency: Containers are lightweight and share the host system's kernel, making them more efficient than traditional virtual machines.
+Scalability: Docker makes it easy to scale applications up or down quickly, which is essential for handling varying loads.
+Isolation: Each container runs in its own isolated environment, which enhances security and stability.
+Portability: Containers can run on any system that supports Docker, making it easy to move applications between different environments, such as development, testing, and production.
+What are Containers
+===================
+Containers are lightweight, portable, and self-sufficient units that package an application and all its dependencies,
+such as libraries, binaries, and configuration files, into a single image. This ensures that the application runs consistently across different environments.
+
