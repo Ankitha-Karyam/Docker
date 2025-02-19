@@ -1,0 +1,16 @@
+docker --version: Check the Docker version installed.
+docker pull [image]: Download a Docker image from a registry.
+docker run [image]: Run a Docker container from an image.
+docker ps: List all running containers.
+docker ps -a: List all containers, including stopped ones.
+docker stop [container_id]: Stop a running container.
+docker start [container_id]: Start a stopped container.
+docker rm [container_id]: Remove a container.
+docker rmi [image_id]: Remove an image.
+docker build -t [name] .: Build an image from a Dockerfile in the current directory.
+docker exec -it [container_id] [command]: Execute a command inside a running container.
+docker logs [container_id]: View logs of a container.
+docker network ls: List all Docker networks.
+docker volume ls: List all Docker volumes.
+docker-compose up: Start services defined in a docker-compose.yml file.
+docker-compose down: Stop and remove services defined in a docker-compose.yml file.
