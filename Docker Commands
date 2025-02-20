@@ -1,0 +1,58 @@
+. docker -v (to check version of docker)
+
+. docker pull IMAGE_NAME (It pulls the image into the docker daemon from docker hub if its not exist in the local docker)
+
+. docker images (List all the images in the docker daemon)
+
+. docker run IMAGE_NAME (to create the container)
+
+. docker run -it IMAGE_NAME (It creates the container along with it it gives interactive mode )
+
+. docker start CONT_NAME or CONT_ID (It starts a docker container)
+
+. docker stop CONT_NAME or CONT_ID (its stops the container)
+
+========================================================
+
+. docker ps ( list all the running containers)
+
+. docker ps -a (list all the containers along with stopped)
+
+. docker rmi IMAGE_NAME( to remove image)
+
+. docker rm CONT_NAME(to remove container)
+
+========================================================
+
+. docker pull IMAGE_NAME:version(to pull a specific version image)
+
+. docker run -d IMAGE_NAME (to run the image in detach mode that is in the background)
+
+. docker run --name CONT_NAME -d IMAGE_NAME (we can give custome name)
+
+=========================================================
+
+. docker run -p8080:3306 IMAGE_NAME (for port binding)
+
+===========================================================
+
+. docker logs CON_NAME ( to check the logs)
+
+. docker exec -it CONT_ID/bin/bash (to run another commands in already runnning container)
+
+. docker exec -it CONT_ID/bin/sh 
+
+===========================================================
+
+. docker network ls (list all networks)
+
+. docker network rm <network_name> (Remove a network)
+
+. docker network create NETWORK_NAME (creates network)
+
+===========================================================
+
+. docker compose -f fileName.yaml up -d (runs the containers defined in .yaml)
+
+. docker compose -f fileName.yaml down (stops and removes the container)
+
